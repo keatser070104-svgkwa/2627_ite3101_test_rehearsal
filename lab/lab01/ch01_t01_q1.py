@@ -1,5 +1,6 @@
 def main():
-    
+    while True:
+        mun = int(input("Type an integer:"))
     # Remove pass with your answer.
     pass
 
