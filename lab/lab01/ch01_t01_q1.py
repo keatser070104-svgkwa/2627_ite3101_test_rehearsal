@@ -5,6 +5,7 @@ def main():
         break
     except ValueError:
     print('Please enter an integer.')
+    
     if num % 10 == 0 and mun % 3 != 0:
         print(f'{num} is divisible by 10 and not divisible by 3.')
     else:
