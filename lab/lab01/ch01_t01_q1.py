@@ -1,6 +1,9 @@
 def main():
     while True:
         mun = int(input("Type an integer:"))
+        break
+    except ValueError:
+        print('Please enter an integer.')
     # Remove pass with your answer.
     pass
 
