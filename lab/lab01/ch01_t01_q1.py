@@ -1,5 +1,6 @@
 def main():
     while True:
+        try:
         mun = int(input("Type an integer:"))
         break
     except ValueError:
